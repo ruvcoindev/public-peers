@@ -15,6 +15,7 @@ Peers:
   tcp://[a:b:c::d]:e
   tcp://[d:c:b::a]:e
 ]
+
 How do I pick peers?
 If you are new to the network then take a look at the Public Peers page to find public peers that are online.
 
@@ -24,7 +25,7 @@ If you are using a home connection then you should avoid peering with any nodes 
 
 For normal usage, you probably only need 2 or 3 peers.
 
-TLS peers.
+                                                              TLS peers.
 As of Ruvchain v0.4.7.1, peering connections over TLS are now possible. This hides the peering connection inside a regular TLS session, which can help in some cases where firewalls or deep packet inspection may identify or block regular Ruvchain peering traffic.
 
 TLS public peers are identified by the prefix tls:// instead of tcp://.
