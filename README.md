@@ -1,6 +1,6 @@
                                                          Public Peers.
 This repository contains peering information for publicly accessible nodes on the Ruvchain network. 
-This repo only for Ruvchain v0.4 peers.
+This repo only for Ruvchain v0.5.5 peers.
 
 Note that not all peers in this repository are guaranteed to be online - check the Public Peers page instead to find peers that are online now.
 
