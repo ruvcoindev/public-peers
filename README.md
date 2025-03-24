@@ -1,6 +1,6 @@
                                                          Public Peers.
 This repository contains peering information for publicly accessible nodes on the Ruvchain network. 
-This repo only for Ruvchain v0.5.5 peers.
+This repo only for Ruvchain v0.5.12 peers.
 
 Note that not all peers in this repository are guaranteed to be online - check the Public Peers page instead to find peers that are online now.
 
@@ -26,7 +26,7 @@ If you are using a home connection then you should avoid peering with any nodes 
 For normal usage, you probably only need 2 or 3 peers.
 
                                                               TLS peers.
-As of Ruvchain v0.5.5, peering connections over TLS are now possible. This hides the peering connection inside a regular TLS session, which can help in some cases where firewalls or deep packet inspection may identify or block regular Ruvchain peering traffic.
+As of Ruvchain v0.5.12, peering connections over TLS are now possible. This hides the peering connection inside a regular TLS session, which can help in some cases where firewalls or deep packet inspection may identify or block regular Ruvchain peering traffic.
 
 TLS public peers are identified by the prefix tls:// instead of tcp://.
 
